@@ -1,0 +1,43 @@
+|n_bit_register
+in_input[0] => out_output[0]~reg0.DATAIN
+in_input[1] => out_output[1]~reg0.DATAIN
+in_input[2] => out_output[2]~reg0.DATAIN
+in_input[3] => out_output[3]~reg0.DATAIN
+in_input[4] => out_output[4]~reg0.DATAIN
+in_input[5] => out_output[5]~reg0.DATAIN
+in_input[6] => out_output[6]~reg0.DATAIN
+in_input[7] => out_output[7]~reg0.DATAIN
+in_enable => out_output[0]~reg0.ENA
+in_enable => out_output[7]~reg0.ENA
+in_enable => out_output[6]~reg0.ENA
+in_enable => out_output[5]~reg0.ENA
+in_enable => out_output[4]~reg0.ENA
+in_enable => out_output[3]~reg0.ENA
+in_enable => out_output[2]~reg0.ENA
+in_enable => out_output[1]~reg0.ENA
+in_clk => out_output[0]~reg0.CLK
+in_clk => out_output[1]~reg0.CLK
+in_clk => out_output[2]~reg0.CLK
+in_clk => out_output[3]~reg0.CLK
+in_clk => out_output[4]~reg0.CLK
+in_clk => out_output[5]~reg0.CLK
+in_clk => out_output[6]~reg0.CLK
+in_clk => out_output[7]~reg0.CLK
+in_nres => out_output[0]~reg0.ACLR
+in_nres => out_output[1]~reg0.ACLR
+in_nres => out_output[2]~reg0.ACLR
+in_nres => out_output[3]~reg0.ACLR
+in_nres => out_output[4]~reg0.ACLR
+in_nres => out_output[5]~reg0.ACLR
+in_nres => out_output[6]~reg0.ACLR
+in_nres => out_output[7]~reg0.ACLR
+out_output[0] <= out_output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_output[1] <= out_output[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_output[2] <= out_output[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_output[3] <= out_output[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_output[4] <= out_output[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_output[5] <= out_output[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_output[6] <= out_output[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_output[7] <= out_output[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
